@@ -1,0 +1,50 @@
+:root {
+    --primary-col: #5a00a9;
+    --secondary-col: #f7ff68;
+}
+
+body {
+    background-color: var(--primary-col);
+    color: var(--secondary-col);
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+    gap: 1em;
+}
+
+h1 {
+  font-size: 6em;  
+}
+
+input {
+    width: 1em;
+    height: 1em;
+    font-size: 8vw;
+    border: 2px solid var(--secondary-col);
+    background-color: transparent;
+    color: var(--secondary-col);
+    outline: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .flex {
+        flex-direction: column;
+        gap: 0;
+        font-size: 1em;
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+}
