@@ -8,18 +8,19 @@
 </head>
 <body>
     <div class="flex">
-        <h1 class="num" id="n1">7</h1>
+        <h1 class="num" id="n1"></h1>
         <input name="op1" type="text" class="operator" id="o1"></input>
-        <h1 class="num" id="n2">8</h1>
+        <h1 class="num" id="n2"></h1>
         <input name="op2" type="text" class="operator" id="o2"></input>
-        <h1 class="num" id="n3">3</h1>
+        <h1 class="num" id="n3"></h1>
         <input name="op3" type="text" class="operator" id="o3"></input>
-        <h1 class="num" id="n4">4</h1>
+        <h1 class="num" id="n4"></h1>
         <input name="op4" type="text" class="operator" id="o4"></input>
-        <h1 class="num" id="n5">2</h1>
-        <input class="operator" value="=" readonly></input>
-        <h1 class="num" id="res">90</h1>
+        <h1 class="num" id="n5"></h1>
+        <input class="operatorReadOnly" value="=" readonly style="border: none;"></input>
+        <h1 class="num" id="res"></h1>
     </div>
+    <button class="check" id="checkAnswer" onclick="checkOperators()">Check!</button>
     <script src="script.js"></script>
 </body>
 </html>

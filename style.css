@@ -28,7 +28,7 @@ h1 {
 input {
     width: 1em;
     height: 1em;
-    font-size: 8vw;
+    font-size: 6em;
     border: 2px solid var(--secondary-col);
     background-color: transparent;
     color: var(--secondary-col);
@@ -47,4 +47,20 @@ input {
         margin: 0;
         padding: 0;
     }
+}
+
+button {
+    background-color: var(--secondary-col);
+    color: var(--primary-col);
+    font-size: 2em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5em;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 800;
 }
